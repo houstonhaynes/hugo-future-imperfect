@@ -197,8 +197,8 @@
 		color: #3c3b3b;
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-weight: 800;
-		letter-spacing: 0.25em;
-		line-height: 1.65;
+		letter-spacing: 0.15em;
+		line-height: 1.5;
 		margin: 0 0 1em 0;
 		text-transform: uppercase;
 	}
@@ -257,8 +257,7 @@
 
 	code {
 		background: rgba(160, 160, 160, 0.075);
-		border: solid 1px rgba(160, 160, 160, 0.3);
-		font-family: "Courier New", monospace;
+		border: solid 2px rgba(160, 160, 160, 0.3);
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -266,20 +265,23 @@
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 		display: table;
-    table-layout: fixed;
-    width: 100%
+		border-radius: 8px; 
+    	table-layout: fixed;
+   		width: 100%
 	}
 
-		pre code {
-			display: block;
-			line-height: 1.75em;
-			padding: 1em 1.5em;
-			overflow-x: auto;
-		}
+	pre code {
+		display: block;
+		line-height: 1.75em;
+		padding: 1em 1.5em;
+		overflow-x: auto;
+		border-radius: 8px; 
+		font-family: 'Fira Code';
+		src: url('../fonts/FiraCode-Regular.otf') format('opentype');
+	}
 
 	hr {
 		border: 0;
@@ -768,13 +770,14 @@
 
 		.image.left {
 			float: left;
-			padding: 0 1.5em 1em 0;
+			margin: 0 1.5em 1em 0;
 			top: 0.25em;
+			clear: both;
 		}
 
 		.image.right {
 			float: right;
-			padding: 0 0 1em 1.5em;
+			margin: 0 0 1em 1.5em;
 			top: 0.25em;
 		}
 
@@ -844,7 +847,7 @@
 		}
 
 	ul {
-		list-style: disc;
+		list-style: square;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
 	}

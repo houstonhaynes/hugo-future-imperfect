@@ -17,26 +17,19 @@
                     </a>
                 </li>
             {{ end }}
+
         </ul>
     </nav>
     <nav class="main">
         <ul>
-            {{ if $.Scratch.Get "shareNav" }}
-            <li id="share-nav" class="share-menu" style="display:none;">
-                <a class="fa-share-alt" href="#share-menu">Share</a>
-            </li>
-            {{ end }}
-            <li class="search">
-                <a class="fa-search" href="#search">Search</a>
-                <form id="search" method="get" action="//google.com/search">
-                    <input type="text" name="q" placeholder="Search" />
-                    <input type="hidden" name="as_sitesearch" value="{{ .Site.BaseURL }}">
-                </form>
+            <li>
+                <a id="dark-mode-toggle" class="fas fa-moon">Toggle Dark Mode</a>
             </li>
             <li class="menu">
-                <a class="fa-bars" href="#menu">Menu</a>
+                <a class="fa fa-bars" href="#menu">Menu</a>
             </li>
         </ul>
+
     </nav>
 </header>
 

@@ -1,0 +1,46 @@
+.rounded {
+    border-radius: 8px;
+  }
+
+.listdescription {
+  clear: both;
+}
+
+ .thumbnail {
+    display: block;
+    max-width:20% !important;
+    width: auto;
+    height: auto;
+  }
+
+.circular {
+    border-radius: 50%; 
+  }
+
+.bordered {
+    border: solid 2px rgba(160, 160, 160, 0.3);
+  }
+
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.widgetframe {
+    align-content: center
+}
+
+#fancybox-wrap {
+    float: left;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
