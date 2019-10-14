@@ -1,6 +1,7 @@
 document.getElementById('submitMessage').addEventListener('submit', submitMessage);
 function processResponse(response) {
     if (response.status === 200) {
+        document.getElementById('container').classList.remove('running');
         output =
             `
         <div class="alert alert-success" role="alert">
@@ -21,6 +22,8 @@ function processResponse(response) {
 }
 function submitMessage(e) {
     e.preventDefault();
+    // add running
+    document.getElementById('container').classList.add('running');
     let name = document.getElementById('name').value;
     let email = document.getElementById('email').value;
     let message = document.getElementById('message').value;

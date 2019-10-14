@@ -25,7 +25,6 @@
     {{ if or (in ($.Scratch.Get "jsFiles") "default") (eq ($.Scratch.Get "jsFiles") false) }}
       <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
       <script src="{{ "js/util.js" | relURL }}"></script>
       <script src="{{ "js/main.js" | relURL }}"></script>
