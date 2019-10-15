@@ -1,3 +1,4 @@
+{{ if not .Params.hidden }}
 {{ partial "general-title" . }}
 
 {{ partial "header" . }}
@@ -13,3 +14,4 @@
     </div>
     {{ partial "sidebar" . }}
 {{ partial "footer" . }}
+{{ end }}
