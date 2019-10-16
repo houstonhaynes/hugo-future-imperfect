@@ -5,7 +5,7 @@ coincidence, because it is a port of [HTML5 UP's theme](http://html5up.net/futur
 by the same name. In addition to the original features, there are more features
 that have been added for you to utilize.
 
-![Hugo Future Imperfect Screenshot](https://raw.githubusercontent.com/jpescador/hugo-future-imperfect/master/images/screenshot.png)
+![Hugo Future Imperfect Screenshot](./images/screenshot.png)
 
 Check out this [site](https://themes.gohugo.io/theme/future-imperfect/) if you are
 interested in seeing a live example.

@@ -1,4 +1,3 @@
-{{ if not .Params.hidden }}
 <article class="post">
   {{ .Render "header" }}
   {{ $.Scratch.Set "summary" ((delimit (findRE "<p.*?>(.|\n)*?</p>" .Content 1) "") | truncate (default 300 .Site.Params.summary_length) (default "&hellip;" .Site.Params.text.truncated ) | replaceRE "&amp;" "&" | safeHTML) }}
@@ -10,4 +9,3 @@
   {{ .Render "footer-category" }}
   </footer>
 </article>
-{{ end }}

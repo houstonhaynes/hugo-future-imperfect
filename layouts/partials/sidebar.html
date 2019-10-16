@@ -46,7 +46,7 @@
             {{ $.Scratch.Set "postLimit" 5 }}
           {{ end }}
 
-          {{ range first ($.Scratch.Get "postLimit") (shuffle (where (where ($.Scratch.Get "recentPosts") "Type" "post") "Title" "!=" .Title )) }}
+          {{ range first ($.Scratch.Get "postLimit") (shuffle (where (where (where ($.Scratch.Get "recentPosts") "Type" "post") "Title" "!=" .Title ) "Title" "!=" "Post")) }}
            {{ if not .Params.hidden  }}
             <article class="mini-post">
               <header>
