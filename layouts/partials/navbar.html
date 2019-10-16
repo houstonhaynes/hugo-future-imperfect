@@ -7,7 +7,6 @@
     {{ else }}
       <h1><a href="{{ "/" | relURL }}">{{ .Title }}</a></h1>
     {{ end }}
-
     <nav class="links">
         <ul>
             {{ range .Site.Menus.main }}
@@ -17,16 +16,19 @@
                     </a>
                 </li>
             {{ end }}
-
-        </ul>
+       </ul>
     </nav>
-    <nav class="main">
+    <nav class="darkMode">
         <ul>
-            <li>
-                <a id="dark-mode-toggle" class="fas fa-moon">Toggle Dark Mode</a>
+            <li>    
+                <a id="dark-mode-toggle" class="fas fa-moon"></a>
             </li>
+        </ul> 
+    </nav>
+    <nav class="menu">
+        <ul>
             <li class="menu">
-                <a class="fa fa-bars" href="#menu">Menu</a>
+                <a class="fa fa-bars" href="#menu">&nbsp;</a>
             </li>
         </ul>
 
