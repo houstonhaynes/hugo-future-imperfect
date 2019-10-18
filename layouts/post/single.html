@@ -10,8 +10,12 @@
         {{ if .IsPage }}
         <table class="GitHub" id="GitInfo">
             <tr>
-                <td>LastUpdated</td>
-                <td>{{ .Page.Lastmod }}</td>
+                <td>BuildDateTime</td>
+                <td>{{ dateFormat "2006-01-02 15:04:05 -0700" now.Local }}</td>
+            </tr>
+            <tr>
+                <td>LastGitUpdate</td>
+                <td>{{ dateFormat "2006-01-02 15:04:05 -0700" .Page.Lastmod.Local }}</td>
             </tr>
             <tr>
                 <td>GitHash</td>
