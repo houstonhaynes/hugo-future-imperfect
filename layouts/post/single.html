@@ -8,23 +8,31 @@
         {{ $.Scratch.Set "h1" true }}
         {{ .Render "content-single" }}
         {{ if .IsPage }}
-        <table class="GitHub" id="GitInfo">
-            <tr>
-                <td>BuildDateTime</td>
-                <td>{{ dateFormat "2006-01-02 15:04:05 -0700" now.Local }}</td>
-            </tr>
-            <tr>
-                <td>LastGitUpdate</td>
-                <td>{{ dateFormat "2006-01-02 15:04:05 -0700" .Page.Lastmod.Local }}</td>
-            </tr>
-            <tr>
-                <td>GitHash</td>
-                <td>{{ .GitInfo.AbbreviatedHash }}</td>
-            </tr>
-            <tr>
-                <td>CommitComment</td>
-                <td>{{ .GitInfo.Subject }}</td>
-            </tr>
+        <table class="GitHub" id="GitInfo" style="visibility:visible;">
+            <thead>
+                <tr>
+                    <td>Key</td>
+                    <td>Value</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>BuildDateTime</td>
+                    <td>{{ dateFormat "2006-01-02 15:04:05 -0700" now.Local }}</td>
+                </tr>
+                <tr>
+                    <td>LastGitUpdate</td>
+                    <td>{{ dateFormat "2006-01-02 15:04:05 -0700" .Page.Lastmod.Local }}</td>
+                </tr>
+                <tr>
+                    <td>GitHash</td>
+                    <td>{{ .GitInfo.AbbreviatedHash }}</td>
+                </tr>
+                <tr>
+                    <td>CommitComment</td>
+                    <td>{{ .GitInfo.Subject }}</td>
+                </tr>
+            </tbody>
         </table>{{ end }}
     </div>
     {{ partial "sidebar" . }}
