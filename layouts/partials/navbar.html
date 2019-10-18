@@ -7,6 +7,13 @@
     {{ else }}
       <h1><a href="{{ "/" | relURL }}">{{ .Title }}</a></h1>
     {{ end }}
+    <nav class="darkMode">
+        <ul>
+            <li>    
+                <a id="dark-mode-toggle" class="fas fa-moon"></a>
+            </li>
+        </ul> 
+    </nav>
     <nav class="links">
         <ul>
             {{ range .Site.Menus.main }}
@@ -17,13 +24,6 @@
                 </li>
             {{ end }}
        </ul>
-    </nav>
-    <nav class="darkMode">
-        <ul>
-            <li>    
-                <a id="dark-mode-toggle" class="fas fa-moon"></a>
-            </li>
-        </ul> 
     </nav>
     <nav class="menu">
         <ul>
@@ -37,14 +37,6 @@
 
 <!-- Menu -->
 <section id="menu">
-
-    <!-- Search -->
-        <section>
-            <form class="search" method="get" action="//google.com/search">
-                <input type="text" name="q" placeholder="Search" />
-                <input type="hidden" name="as_sitesearch" value="{{ .Site.BaseURL }}">
-            </form>
-        </section>
 
     <!-- Links -->
         <section>

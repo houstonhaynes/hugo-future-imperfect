@@ -2284,7 +2284,7 @@ body {
 
 #header ul li {
     display: inline-block;
-    margin-left: 1em;
+    margin: 0 1em 0;
 }
 
 #header h1 {
@@ -2292,7 +2292,7 @@ body {
     line-height: inherit;
     padding: 0 0 0 1.5em;
     white-space: nowrap;
-    min-width: 12.4em;
+    min-width: 8emem;
 }
 
 #header h1 a {
@@ -3047,10 +3047,4 @@ body.is-share-visible #share-menu {
     border-top: 0;
     margin-top: 0;
     padding-top: 0;
-}
-
-@media screen and (max-width: 736px) {
-    #share-menu>* {
-        padding: 1.5em;
-    }
 }
