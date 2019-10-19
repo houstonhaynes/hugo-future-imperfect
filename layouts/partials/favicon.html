@@ -7,8 +7,8 @@
   {{ end }}
 
   {{ $favVer := $.Scratch.Get "favVer" }}
-  <link rel="manifest" href="./favicon/site.webmanifest">
-  <link rel="apple-touch-icon-precomposed" href="{{ "./favicon/apple-touch-icon-precomposed" | relURL }}{{ $favVer }}.png">
+  <link rel="manifest" href="{{ "/favicon/site.webmanifest" | relURL }}">
+  <link rel="apple-touch-icon-precomposed" href="{{ "/favicon/apple-touch-icon-precomposed" | relURL }}{{ $favVer }}.png">
   <link rel="icon" href="{{ "/favicon/favicon" | relURL }}{{ $favVer }}.png">
   <link rel="icon" href="{{ "/favicon/favicon-32x32" | relURL }}{{ $favVer }}.png" sizes="32x32">
   <link rel="shortcut icon" href="{{ "/favicon/favicon-16x16" | relURL }}{{ $favVer }}.png" sizes="16x16">
