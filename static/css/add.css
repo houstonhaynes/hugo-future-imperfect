@@ -68,6 +68,8 @@ svg[class*="svg-inline--fa"] {
 #header .darkMode {
     font-size: 0.8em;
     border-right: solid 1px rgba(160, 160, 160, 0.3);
+    width: 3.5em;
+    text-align: center;
 }
 
 .darkMode ul {
