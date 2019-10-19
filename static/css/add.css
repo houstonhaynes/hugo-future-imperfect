@@ -7,10 +7,11 @@
 }
 
 .thumbnail {
-    display: block;
     max-width: 20% !important;
     width: auto;
     height: auto;
+    float: left;
+    margin: 0 1.5em 1em 0;
 }
 
 .circular {
@@ -64,11 +65,18 @@ svg[class*="svg-inline--fa"] {
     text-decoration: none !important;
 }
 
-#header .darkMode ul li {
-    line-height: 1;
-    padding-left: 1em;
-    padding-left: 1em;
-    font-size: 0.75em;
+#header .darkMode {
+    font-size: 0.8em;
+    border-right: solid 1px rgba(160, 160, 160, 0.3);
+}
+
+.darkMode ul {
+    padding-left: 0 !important;
+}
+
+.darkMode ul li {
+    padding-left: 0 !important;
+    line-height: 1em;
 }
 
 #main .GitHub {
@@ -81,6 +89,15 @@ svg[class*="svg-inline--fa"] {
 }
 
 #sidebar #intro a {
+    text-decoration: none !important;
+    outline: none;
+    border: 0px !important;
+    border-width: 0px;
+    outline-width: 0px;
+    border-bottom: none;
+}
+
+#main #intro a {
     text-decoration: none !important;
     outline: none;
     border: 0px !important;

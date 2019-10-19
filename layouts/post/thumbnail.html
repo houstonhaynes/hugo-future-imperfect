@@ -7,9 +7,8 @@
         {{ $path := $.Scratch.Get "path" }}
         {{ $alt := $.Scratch.Get "alt" }}
         {{ $img := $.Scratch.Get "img" }}
-
         <a href="{{ .RelPermalink }}">
-            <img class="image left rounded bordered thumbnail" src="{{ $path | relURL }}/{{ .Params.featured }}" alt="{{ $alt }}">
+            <img class="image rounded bordered thumbnail" src="{{ $path | relURL }}/{{ .Params.featured }}" alt="{{ $alt }}">
         </a>
     {{ end }}
 {{ end }}
