@@ -107,3 +107,23 @@ svg[class*="svg-inline--fa"] {
     outline-width: 0px;
     border-bottom: none;
 }
+
+nav.menu ul li a {
+    text-decoration: none !important;
+    outline: none;
+    border: 0px !important;
+    border-width: 0px;
+    outline-width: 0px;
+    border-bottom: none;
+}
+
+input[type="text"] {
+    border-top-left-radius: 8px !important;
+    border-top-right-radius: 8px !important;
+}
+
+textarea {
+    border-bottom-left-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+    resize: none;
+}
