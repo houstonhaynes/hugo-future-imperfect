@@ -34,9 +34,22 @@
         {{ end }}
 
         {{ template "_internal/twitter_cards.html" . }}
+        {{ if .IsPage }}
+            <meta property="twitter:image" content="{{ .Site.BaseURL }}/{{ .Params.featuredpath }}/{{ .Params.featured }}">
+            <meta property="twitter:image:type" content="image/png">
+        {{ else }}
+          <meta property="twitter:image" content="{{ .Site.BaseURL }}/img/H3logo.svg">
+          <meta property="twitter:image:type" content="image/svg">
+        {{ end }}
         {{ template "_internal/opengraph.html" . }}
-        <meta property="og:image" content="{{ .Site.BaseURL }}/{{ .Params.featuredpath }}/{{ .Params.featured }}">
-        <meta property="og:image:type" content="image/png">
+        {{ if .IsPage }}
+            <meta property="og:image" content="{{ .Site.BaseURL }}/{{ .Params.featuredpath }}/{{ .Params.featured }}">
+            <meta property="og:image:type" content="image/png">
+        {{ else }}
+          <meta property="og:image" content="{{ .Site.BaseURL }}/img/H3logo.svg">
+          <meta property="og:image:type" content="image/svg">
+        {{ end }}
+        
         <meta property="og:image:width" content="512">
         <meta property="og:image:height" content="512">
         {{ template "_internal/schema.html" . }}
