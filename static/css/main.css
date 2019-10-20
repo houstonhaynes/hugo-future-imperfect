@@ -1067,7 +1067,7 @@ ul.actions.pagination .next:after {
     content: "";
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 5 Solid";
     /* updated font-family */
     font-weight: 400;
     /* regular style/weight */
@@ -1076,7 +1076,7 @@ ul.actions.pagination .next:after {
 }
 
 ul.actions.pagination .next:after {
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 5 Solid";
     /* updated font-family */
     font-weight: 400;
     /* regular style/weight */
@@ -1091,7 +1091,7 @@ ul.actions.pagination .previous:before {
     content: "";
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 5 Solid";
     /* updated font-family */
     font-weight: 400;
     /* regular style/weight */
@@ -1100,7 +1100,7 @@ ul.actions.pagination .previous:before {
 }
 
 ul.actions.pagination .previous:before {
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 5 Solid";
     /* updated font-family */
     font-weight: 400;
     /* regular style/weight */
