@@ -127,3 +127,7 @@ textarea {
     border-bottom-right-radius: 8px !important;
     resize: none;
 }
+
+.gist .blob-code-inner {
+    white-space: pre-wrap !important;
+}
