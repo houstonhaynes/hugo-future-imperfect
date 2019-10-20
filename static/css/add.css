@@ -46,26 +46,6 @@
     display: table;
 }
 
-svg[class^="svg-inline--fa"],
-svg[class*="svg-inline--fa"] {
-    margin-right: .25em;
-    margin-left: .25em;
-}
-
-ul.actions.pagination li a.button.big.previous svg.svg-inline--fa,
-ul.actions.pagination li a.button.big.next svg.svg-inline--fa {
-    margin: 0 1em 0;
-}
-
-ul.actions.pagination li a.button.big.previous:before,
-ul.actions.pagination li a.button.big.next:after {
-    display: none;
-    line-height: 0;
-    bottom: -1px;
-    left: 0;
-    z-index: 999;
-}
-
 svg-inline--fa #header .darkMode a {
     /* Theoretically for IE 8 & 9 (more valid) */
     /* ...but not required as filter works too */
@@ -144,4 +124,12 @@ textarea {
 
 .gist .blob-code-inner {
     white-space: pre-wrap !important;
+}
+
+#content a[target="_blank"]:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: " \f35d";
+    font-size: .8em;
+    padding-left: .2em;
 }

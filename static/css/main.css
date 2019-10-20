@@ -637,9 +637,7 @@ form.contact:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     font-family: "Font Awesome 5 Free";
-    /* updated font-family */
     font-weight: 400;
-    /* regular style/weight */
     font-style: normal;
     text-transform: none !important;
     color: #aaaaaa;
@@ -727,9 +725,7 @@ textarea:active {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     font-family: "Font Awesome 5 Free";
-    /* updated font-family */
     font-weight: 400;
-    /* regular style/weight */
     font-style: normal;
     text-transform: none !important;
     color: rgba(160, 160, 160, 0.3);
@@ -789,9 +785,7 @@ input[type="radio"]+label:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     font-family: "Font Awesome 5 Free";
-    /* updated font-family */
     font-weight: 400;
-    /* regular style/weight */
     font-style: normal;
     text-transform: none !important;
     background: #f6f9ff;
@@ -860,9 +854,7 @@ input[type="radio"]+label:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     font-family: "Font Awesome 5 Free";
-    /* updated font-family */
     font-weight: 400;
-    /* regular style/weight */
     font-style: normal;
     text-transform: none !important;
 }
@@ -1067,20 +1059,16 @@ ul.actions.pagination .next:after {
     content: "";
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: "Font Awesome 5 Solid";
-    /* updated font-family */
-    font-weight: 400;
-    /* regular style/weight */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
     font-style: normal;
     text-transform: none !important;
 }
 
 ul.actions.pagination .next:after {
-    font-family: "Font Awesome 5 Solid";
-    /* updated font-family */
-    font-weight: 400;
-    /* regular style/weight */
-    content: "\f061";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f054";
 }
 
 ul.actions.pagination .previous {
@@ -1091,20 +1079,16 @@ ul.actions.pagination .previous:before {
     content: "";
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: "Font Awesome 5 Solid";
-    /* updated font-family */
-    font-weight: 400;
-    /* regular style/weight */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
     font-style: normal;
     text-transform: none !important;
 }
 
 ul.actions.pagination .previous:before {
-    font-family: "Font Awesome 5 Solid";
-    /* updated font-family */
-    font-weight: 400;
-    /* regular style/weight */
-    content: '\f060';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f053';
 }
 
 @media screen and (max-width: 980px) {
@@ -2138,9 +2122,7 @@ table>tbody>tr>td:first-child {
         float: right;
         content: "\f107";
         font-family: "Font Awesome 5 Free";
-        /* updated font-family */
         font-weight: 400;
-        /* regular style/weight */
         font-style: normal;
         text-decoration: inherit;
         transition: all .35s;
@@ -2422,9 +2404,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     font-family: "Font Awesome 5 Free";
-    /* updated font-family */
     font-weight: 400;
-    /* regular style/weight */
     font-style: normal;
     text-transform: none !important;
 }
