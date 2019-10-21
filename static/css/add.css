@@ -140,7 +140,7 @@ textarea {
     padding-left: .2em;
 }
 
-figure figcaption {
+figcaption.caption {
     margin: 0;
     line-height: 1.2em;
     color: #777;
