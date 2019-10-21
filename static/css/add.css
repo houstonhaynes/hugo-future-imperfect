@@ -139,3 +139,11 @@ textarea {
     font-size: .8em;
     padding-left: .2em;
 }
+
+figure figcaption {
+    margin: 0;
+    line-height: 1.2em;
+    color: #777;
+    text-align: center;
+    font-style: italic;
+}
