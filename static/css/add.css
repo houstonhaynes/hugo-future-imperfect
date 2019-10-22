@@ -147,3 +147,14 @@ figcaption.caption {
     text-align: center;
     font-style: italic;
 }
+
+img.ld.ld-heartbeat {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#container.ld-over.running:before {
+    border-radius: 8px !important;
+}

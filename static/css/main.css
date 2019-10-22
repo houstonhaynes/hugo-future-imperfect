@@ -235,6 +235,9 @@ textarea {
     textarea {
         font-size: 12pt;
     }
+    #header h1 {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 736px) {
@@ -244,6 +247,9 @@ textarea {
     textarea {
         font-size: 12pt;
     }
+    #header h1 {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -252,6 +258,9 @@ textarea {
     select,
     textarea {
         font-size: 12pt;
+    }
+    #header h1 {
+        text-align: center;
     }
 }
 
