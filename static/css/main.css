@@ -402,7 +402,7 @@ pre code {
     overflow-x: auto;
     border-radius: 8px;
     font-family: 'Fira Code';
-    src: url('../fonts/FiraCode-Regular.otf') format('opentype');
+    src: url('/fonts/FiraCode-Regular.otf') format('opentype');
 }
 
 hr {
