@@ -1430,6 +1430,7 @@ dl dd {
 .post>header .title h2 {
     font-weight: 800;
     font-size: 1.2em;
+    display: inline;
 }
 
 .post>header .title> :last-child {

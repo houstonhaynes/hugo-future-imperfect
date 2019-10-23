@@ -158,3 +158,17 @@ img.ld.ld-heartbeat {
 div#container.ld-over.running:before {
     border-radius: 8px !important;
 }
+
+.title .image {
+    -moz-transition: -moz-transform 0.2s ease-out;
+    -webkit-transition: -webkit-transform 0.2s ease-out;
+    -ms-transition: -ms-transform 0.2s ease-out;
+    transition: transform 0.2s ease-out;
+}
+
+.title .image:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
