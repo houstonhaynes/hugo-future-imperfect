@@ -18,6 +18,7 @@ body * [style*="background-image"] {
     -webkit-filter: hue-rotate(180deg) contrast(100%) invert(100%);
 }
 
-.svg {
-    filter: grayscale(50%);
+img.grayfilter {
+    filter: hue-rotate() contrast() invert(100%) grayscale(100%) !important;
+    -webkit-filter: hue-rotate() contrast() invert(100%) grayscale(100%) !important;
 }
