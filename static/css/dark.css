@@ -22,3 +22,8 @@ img.grayfilter {
     filter: hue-rotate() contrast() invert(100%) grayscale(100%) !important;
     -webkit-filter: hue-rotate() contrast() invert(100%) grayscale(100%) !important;
 }
+
+img.grayDuringDarkMode {
+    filter: hue-rotate() contrast() brightness(50%) invert() !important;
+    -webkit-filter: hue-rotate() contrast() brightness(50%) invert() !important;
+}
