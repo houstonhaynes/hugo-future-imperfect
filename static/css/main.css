@@ -400,8 +400,10 @@ pre code {
     /* Force ligatures for Webkit, Blink, Gecko */
     line-height: 1.5em;
     border-radius: 8px;
+    /* not really likeing the look of breaks/wraps so disabling
     white-space: pre-wrap;
     word-break: break-all;
+    */
 }
 
 hr {
