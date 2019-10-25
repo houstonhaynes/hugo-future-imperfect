@@ -1,8 +1,5 @@
-/*@import url(font-awesome.min.css);*/
-
-
-/*@import url("//fonts.googleapis.com/css?family=Ubuntu:400,700|Ubuntu:400,800,900");*/
-
+@import url("//fonts.googleapis.com/css?family=Ubuntu:400,700,800,900");
+@import url("//fonts.googleapis.com/css?family=Fira+Code");
 
 /*
 	Future Imperfect by HTML5 UP
@@ -395,23 +392,14 @@ pre {
     width: 100%
 }
 
-@font-face {
-    font-family: Fira Code;
-    src: url('/fonts/FiraCode-Regular.otf') format('opentype');
-}
-
 pre code {
-    font: 12px/1.25em "Fira Code";
+    font-family: "Fira Code", monospace;
     font-feature-settings: "calt" 1;
     /* Enable ligatures for IE 10+, Edge */
     text-rendering: optimizeLegibility;
     /* Force ligatures for Webkit, Blink, Gecko */
-    display: block;
-    line-height: 1.75em;
-    padding: 1em 1.5em;
-    overflow-x: auto;
+    line-height: 1.5em;
     border-radius: 8px;
-    font-family: 'Fira Code';
     white-space: pre-wrap;
     word-break: break-all;
 }
