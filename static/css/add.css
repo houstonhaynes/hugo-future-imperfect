@@ -173,6 +173,38 @@ div#container.ld-over.running:before {
     transform: scale(1.1);
 }
 
+
+/* make cursor transition to pointer
+   for mouse-over of toggle (like menu items) */
+
 a#dark-mode-toggle {
     cursor: pointer;
+}
+
+
+/* adding fancybox image overlay */
+
+.fancybox {
+    position: relative;
+}
+
+.fancybox a img {
+    display: block;
+    margin: 1em;
+}
+
+.fancybox .fa-search-plus {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 20pt;
+}
+
+
+/* change background to be light
+    so that it's not blinding when
+    in dark mode */
+
+.fancybox-bg {
+    background: #e1e1e1 !important;
 }
