@@ -172,3 +172,7 @@ div#container.ld-over.running:before {
     -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
+
+a#dark-mode-toggle {
+    cursor: pointer;
+}
