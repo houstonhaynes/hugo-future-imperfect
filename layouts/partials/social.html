@@ -45,6 +45,10 @@
 {{ with .Site.Social.medium}}
   <li><a href="//medium.com/@{{.}}" target="_blank" title="Medium" class="fab fa-medium-m"></a></li>
 {{ end }}
+<!-- Added Dev-to-->
+{{ with .Site.Social.devto}}
+  <li><a href="//dev.to/{{.}}" target="_blank" title="Dev" class="fab fa-dev"></a></li>
+{{ end }}
 
 {{ with .Site.Social.linkedin }}
   <li><a href="//linkedin.com/in/{{.}}" target="_blank" title="LinkedIn" class="fab fa-linkedin"></a></li>
