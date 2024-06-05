@@ -646,7 +646,7 @@ form.search:before,
 form.contact:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: "Font Awesome 5 Free";
+    font-family: "FontAwesome";
     font-weight: 400;
     font-style: normal;
     text-transform: none !important;
@@ -734,7 +734,7 @@ textarea:active {
 .select-wrapper:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: "Font Awesome 5 Free";
+    font-family: "FontAwesome";
     font-weight: 400;
     font-style: normal;
     text-transform: none !important;
@@ -794,7 +794,7 @@ input[type="radio"]+label {
 input[type="radio"]+label:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: "Font Awesome 5 Free";
+    font-family: "FontAwesome";
     font-weight: 400;
     font-style: normal;
     text-transform: none !important;
@@ -863,7 +863,7 @@ input[type="radio"]+label:before {
 .icon:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: "Font Awesome 5 Free";
+    font-family: "FontAwesome";
     font-weight: 400;
     font-style: normal;
     text-transform: none !important;
@@ -1066,19 +1066,19 @@ ul.actions.pagination .next {
 }
 
 ul.actions.pagination .next:after {
-    content: "";
+    content: '\f054';
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: "Font Awesome 5 Free";
+    font-family: "FontAwesome";
     font-weight: 900;
     font-style: normal;
     text-transform: none !important;
 }
 
 ul.actions.pagination .next:after {
-    font-family: "Font Awesome 5 Free";
+    font-family: "FontAwesome";
     font-weight: 900;
-    content: "\f054";
+    content: '\f054';
 }
 
 ul.actions.pagination .previous {
@@ -1086,17 +1086,17 @@ ul.actions.pagination .previous {
 }
 
 ul.actions.pagination .previous:before {
-    content: "";
+    content: '\f053';
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: "Font Awesome 5 Free";
+    font-family: "FontAwesome";
     font-weight: 900;
     font-style: normal;
     text-transform: none !important;
 }
 
 ul.actions.pagination .previous:before {
-    font-family: "Font Awesome 5 Free";
+    font-family: "FontAwesome";
     font-weight: 900;
     content: '\f053';
 }
@@ -2132,7 +2132,7 @@ table>tbody>tr>td:first-child {
     table>tbody>tr>td:first-child:after {
         float: right;
         content: "\f107";
-        font-family: "Font Awesome 5 Free";
+        font-family: "FontAwesome";
         font-weight: 400;
         font-style: normal;
         text-decoration: inherit;
@@ -2414,7 +2414,7 @@ body {
 #header .main ul li>a:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: "Font Awesome 5 Free";
+    font-family: "FontAwesome";
     font-weight: 400;
     font-style: normal;
     text-transform: none !important;

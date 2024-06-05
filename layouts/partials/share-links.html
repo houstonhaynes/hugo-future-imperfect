@@ -3,22 +3,13 @@
 <!-- Twitter -->
 {{ if .Site.Params.socialShareTwitter | default true}}
 <li>
-  <a href="//twitter.com/share?url={{ .Permalink }}&amp;text={{ .Title }}&amp;via={{ .Site.Social.twitter }}" target="_blank" class="share-btn twitter">
-    <i class="fab fa-twitter"></i>
-    <p>Twitter</p>
+  <a href="//twitter.com/share?url={{ .Permalink }}&amp;text={{ .Title }}&amp;via={{ .Site.Social.twitter }}" target="_blank" class="share-btn email">
+    <i class="fab fa-x-twitter"></i>
+    <p>X</p>
     </a>
 </li>
 {{ end }}
 
-<!-- Google Plus -->
-{{ if .Site.Params.socialShareGoogleplus | default true}}
-<li>
-  <a href="//plus.google.com/share?url={{ .Permalink }}" target="_blank" class="share-btn google-plus">
-    <i class="fab fa-google-plus"></i>
-    <p>Google+</p>
-  </a>
-</li>
-{{ end }}
 
 <!-- Facebook -->
 {{ if .Site.Params.socialShareFacebook | default true}}
@@ -51,25 +42,6 @@
 </li>
 {{ end }}
 
-<!-- StumbleUpon -->
-{{ if .Site.Params.socialShareStumbleupon | default true}}
-<li>
-  <a href="//www.stumbleupon.com/submit?url={{ .Permalink }}&amp;title={{ .Title }}" target="_blank" class="share-btn stumbleupon">
-    <i class="fab fa-stumbleupon"></i>
-    <p>StumbleUpon</p>
-  </a>
-</li>
-{{ end }}
-
-<!-- Pintrest -->
-{{ if .Site.Params.socialSharePinterest | default true}}
-<li>
-  <a href="//www.pinterest.com/pin/create/button/?url={{ .Permalink }}&amp;description={{ .Title }}" target="_blank" class="share-btn pinterest">
-    <i class="fab fa-pinterest-p"></i>
-    <p>Pinterest</p>
-  </a>
-</li>
-{{ end }}
 
 <!-- Email -->
 {{ if .Site.Params.socialShareEmail | default true}}
